@@ -6,7 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<ProductPage />} />
           <Route path="/:id" element={<SpecificProductPage />} />
