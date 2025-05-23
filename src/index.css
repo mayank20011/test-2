@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.custom-container{
+  @apply w-full p-4 sm:w-9/10 mx-auto md:w-4/5 mx-auto p-4 max-w-[1440px];
+}
